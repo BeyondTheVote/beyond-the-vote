@@ -80,12 +80,12 @@ window.CAMPAIGN_DATA = {
       description: "Meet the FAFS First candidate team.",
       candidates: [
         {
-          id: "fafs-cristina-jureidini",
-          name: "Cristina Z. Jureidini",
+          id: "fafs-cristiana-jureidini",
+          name: "Cristiana Z. Jureidini",
           position: "USFC",
           designation: "",
-          image: "",
-          imageAlt: "Portrait of Cristina Z. Jureidini",
+          image: "assets/candidates/cristiana-jureidini.jpg",
+          imageAlt: "Portrait of Cristiana Z. Jureidini",
           introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
           campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
         }
