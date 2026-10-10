@@ -36,7 +36,7 @@ window.CAMPAIGN_DATA = {
           name: "Roy E. Ayyache",
           position: "USFC",
           designation: "",
-          image: "",
+          image: "assets/candidates/roy-ayyache.jpg",
           imageAlt: "Portrait of Roy E. Ayyache",
           introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
           campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
