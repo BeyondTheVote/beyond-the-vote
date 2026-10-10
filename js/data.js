@@ -46,7 +46,7 @@ window.CAMPAIGN_DATA = {
           name: "Antoine C. Safar",
           position: "USFC",
           designation: "",
-          image: "",
+          image: "assets/candidates/antoine-safar.jpg",
           imageAlt: "Portrait of Antoine C. Safar",
           introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
           campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
