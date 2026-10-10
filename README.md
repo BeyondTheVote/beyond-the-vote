@@ -49,8 +49,7 @@ Open `js/data.js`. Each faculty has a `candidates` list. Replace each placeholde
   designation: "Lead Candidate", // Use "" when no designation applies.
   image: "assets/candidates/firstname-lastname.webp",
   imageAlt: "Portrait of Full Name",
-  introduction: "Approved short biography or introduction.",
-  campaignMessage: "Approved campaign message and electoral program."
+  statement: "Approved candidate profile statement."
 }
 ```
 

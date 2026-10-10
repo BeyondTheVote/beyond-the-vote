@@ -1209,6 +1209,14 @@ p {
   line-height: 1.8;
 }
 
+.profile-statement > p {
+  max-width: 690px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.5vw, 28px);
+  line-height: 1.55;
+}
+
 .information-note {
   display: grid;
   grid-template-columns: auto 1fr;

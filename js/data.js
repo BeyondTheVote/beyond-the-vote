@@ -28,8 +28,7 @@ window.CAMPAIGN_DATA = {
           designation: "Lead Candidate",
           image: "",
           imageAlt: "Portrait of Jean-Pierre B. Fadel",
-          introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
-          campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
+          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
         },
         {
           id: "msfea-roy-ayyache",
@@ -38,8 +37,7 @@ window.CAMPAIGN_DATA = {
           designation: "",
           image: "assets/candidates/roy-ayyache.jpg",
           imageAlt: "Portrait of Roy E. Ayyache",
-          introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
-          campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
+          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
         },
         {
           id: "msfea-antoine-safar",
@@ -49,8 +47,7 @@ window.CAMPAIGN_DATA = {
           image: "assets/candidates/antoine-safar.jpg",
           portraitClass: "portrait-recenter-right",
           imageAlt: "Portrait of Antoine C. Safar",
-          introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
-          campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
+          statement: "I’m a second-year ECE student. My goal is to make MSFEA a better place, to be the voice of my peers, to be the one who leads the change, to secure a better future, and to make my campaign go beyond the vote."
         }
       ]
     },
@@ -68,8 +65,7 @@ window.CAMPAIGN_DATA = {
           designation: "",
           image: "",
           imageAlt: "Portrait of Angelo T. Jabre",
-          introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
-          campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
+          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
         }
       ]
     },
@@ -82,13 +78,12 @@ window.CAMPAIGN_DATA = {
       candidates: [
         {
           id: "fafs-cristiana-jureidini",
-          name: "Cristiana Z. Jureidini",
+          name: "Cristina Z. Jureidini",
           position: "USFC",
           designation: "",
           image: "assets/candidates/cristiana-jureidini.jpg",
-          imageAlt: "Portrait of Cristiana Z. Jureidini",
-          introduction: "The candidate’s introduction will be added here once the final campaign information is provided.",
-          campaignMessage: "The candidate’s campaign message and electoral program will be published here after approval."
+          imageAlt: "Portrait of Cristina Z. Jureidini",
+          statement: "I’m Cristina Jureidini, an Agribusiness student running for USFC, a passionate voice for change, and someone who believes student life deserves more than just promises. I’m running to turn ideas into action, bring students’ voices to the table, and make our university experience better for everyone. Your voice, our impact."
         }
       ]
     }

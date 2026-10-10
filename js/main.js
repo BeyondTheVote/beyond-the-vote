@@ -196,14 +196,8 @@
             <div><span>Campaign</span><strong>${escapeHtml(faculty.campaignName)}</strong></div>
           </div>
 
-          <section class="profile-section">
-            <div class="profile-section-label"><span>01</span><h2>Introduction</h2></div>
-            <p>${escapeHtml(candidate.introduction)}</p>
-          </section>
-
-          <section class="profile-section">
-            <div class="profile-section-label"><span>02</span><h2>Campaign message</h2></div>
-            <p>${escapeHtml(candidate.campaignMessage)}</p>
+          <section class="profile-section profile-statement" aria-label="Candidate statement">
+            <p>${escapeHtml(candidate.statement)}</p>
           </section>
 
           <aside class="information-note">
