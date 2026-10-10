@@ -907,6 +907,15 @@ p {
   transform: scale(1.035);
 }
 
+.portrait-image-wrap.portrait-recenter-right img {
+  transform: translateX(4.5%) scale(1.1);
+}
+
+.candidate-card:hover .portrait-image-wrap.portrait-recenter-right img,
+.candidate-card:focus-visible .portrait-image-wrap.portrait-recenter-right img {
+  transform: translateX(4.5%) scale(1.135);
+}
+
 .portrait-image-wrap.image-missing img {
   display: none;
 }

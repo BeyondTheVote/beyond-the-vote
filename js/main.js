@@ -23,6 +23,7 @@
 
   function portraitMarkup(candidate, faculty) {
     const label = candidate.name === "Candidate profile" ? "Photo coming soon" : candidate.name;
+    const portraitClass = candidate.portraitClass ? ` ${escapeHtml(candidate.portraitClass)}` : "";
     const fallback = `
       <div class="portrait-fallback">
         <span class="portrait-monogram">${escapeHtml(faculty.shortName)}</span>
@@ -32,7 +33,7 @@
     if (!candidate.image) return fallback;
 
     return `
-      <div class="portrait-image-wrap">
+      <div class="portrait-image-wrap${portraitClass}">
         <img src="${escapeHtml(candidate.image)}" alt="${escapeHtml(candidate.imageAlt || candidate.name)}" loading="lazy">
         ${fallback}
       </div>`;
