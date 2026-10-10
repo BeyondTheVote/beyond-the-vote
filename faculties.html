@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#701d3f">
+    <meta name="description" content="Choose your AUB faculty and meet the Beyond the Vote candidates.">
+    <meta property="og:title" content="Choose Your Faculty | Beyond the Vote">
+    <meta property="og:description" content="Explore Beyond the Vote candidates by faculty.">
+    <meta property="og:type" content="website">
+    <title>Choose Your Faculty | Beyond the Vote</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="interior-page" data-page="faculties">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header site-header-light">
+      <a class="brand brand-light" href="index.html" aria-label="Beyond the Vote home">
+        <span class="brand-arrow" aria-hidden="true">↗</span>
+        <span class="brand-name"><span>Beyond</span><span>the Vote.</span></span>
+      </a>
+      <a class="back-link" href="index.html"><span aria-hidden="true">←</span> Home</a>
+    </header>
+
+    <main id="main-content">
+      <section class="page-intro section-shell">
+        <div>
+          <p class="eyebrow eyebrow-light"><span></span> Candidate directory</p>
+          <h1>Where do<br><em>you belong?</em></h1>
+        </div>
+        <p class="page-intro-copy">
+          Choose your faculty to meet its candidates and learn more about their
+          campaign. It takes just a few taps.
+        </p>
+      </section>
+
+      <section class="faculty-section section-shell" aria-labelledby="faculty-heading">
+        <div class="section-heading-row">
+          <h2 id="faculty-heading">Select your faculty</h2>
+          <p id="faculty-count" aria-live="polite"></p>
+        </div>
+        <div class="faculty-grid" id="faculty-grid" aria-live="polite">
+          <div class="loading-state" role="status"><span aria-hidden="true"></span>Loading faculties…</div>
+        </div>
+        <noscript>
+          <p class="notice-card">Please enable JavaScript to view the faculty directory.</p>
+        </noscript>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-light">
+      <p>Beyond the Vote</p>
+      <p>Information only · Voting does not take place on this website</p>
+    </footer>
+  </body>
+</html>

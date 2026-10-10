@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f2ed">
+    <meta name="description" content="Meet the Beyond the Vote candidates for your faculty.">
+    <meta property="og:title" content="Candidates | Beyond the Vote">
+    <meta property="og:description" content="Meet the candidates and explore their profiles.">
+    <meta property="og:type" content="website">
+    <title>Candidates | Beyond the Vote</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="directory-page" data-page="candidates">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header compact-header">
+      <a class="brand" href="index.html" aria-label="Beyond the Vote home">
+        <span class="brand-arrow" aria-hidden="true">↗</span>
+        <span class="brand-name"><span>Beyond</span><span>the Vote.</span></span>
+      </a>
+      <a class="back-link" href="faculties.html"><span aria-hidden="true">←</span> All faculties</a>
+    </header>
+
+    <main id="main-content">
+      <section class="directory-hero section-shell" id="directory-hero" aria-live="polite">
+        <div class="loading-state" role="status"><span aria-hidden="true"></span>Loading faculty…</div>
+      </section>
+
+      <section class="candidate-directory section-shell" aria-labelledby="candidate-heading">
+        <div class="section-heading-row section-heading-dark">
+          <h2 id="candidate-heading">Candidate profiles</h2>
+          <p id="candidate-count"></p>
+        </div>
+        <div class="candidate-grid" id="candidate-grid" aria-live="polite">
+          <div class="loading-state" role="status"><span aria-hidden="true"></span>Loading candidates…</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Beyond the Vote</p>
+      <p><a class="footer-link" href="faculties.html">Change faculty</a> · AUB 2026</p>
+    </footer>
+  </body>
+</html>
