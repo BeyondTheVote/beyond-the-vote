@@ -62,9 +62,9 @@ window.CAMPAIGN_DATA = {
           name: "Angelo T. Jabre",
           position: "USFC",
           designation: "",
-          image: "",
+          image: "assets/candidates/angelo-jabre.jpg",
           imageAlt: "Portrait of Angelo T. Jabre",
-          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
+          statement: "Hey! My name is Angelo Jabre, and I’m running as a candidate for the USFC representing OSB. As an OSB student, I believe student representation should go beyond simply having a voice; it should be about taking action, listening to students’ concerns, and working toward meaningful improvements. I’m committed to representing our students’ interests, addressing the issues that matter to them, and making sure their voices are heard. “Your voice, my mission”"
         }
       ]
     },
