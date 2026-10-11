@@ -28,7 +28,7 @@ window.CAMPAIGN_DATA = {
           designation: "Lead Candidate",
           image: "assets/candidates/jean-pierre-fadel.jpg",
           imageAlt: "Portrait of Jean-Pierre B. Fadel",
-          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
+          statement: "I'm Jean-Pierre Fadel, a Civil Engineering student running for USFC with Beyond the Vote. I believe students deserve representatives who listen first, speak up when it counts, and report back on what they've done. I'm running to bring a new vision to MSFEA, make our voice heard at the university level, and deliver results you can see. Let's lead the change together."
         },
         {
           id: "msfea-roy-ayyache",
