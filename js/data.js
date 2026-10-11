@@ -44,7 +44,7 @@ window.CAMPAIGN_DATA = {
           name: "Antoine C. Safar",
           position: "USFC",
           designation: "",
-          image: "assets/candidates/antoine-safar.jpg",
+          image: "assets/candidates/antoine-safar.jpg?v=20261011",
           imageAlt: "Portrait of Antoine C. Safar",
           statement: "I’m a second-year ECE student. My goal is to make MSFEA a better place, to be the voice of my peers, to be the one who leads the change, to secure a better future, and to make my campaign go beyond the vote."
         }
