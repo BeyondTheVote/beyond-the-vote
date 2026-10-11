@@ -26,7 +26,7 @@ window.CAMPAIGN_DATA = {
           name: "Jean-Pierre B. Fadel",
           position: "USFC",
           designation: "Lead Candidate",
-          image: "",
+          image: "assets/candidates/jean-pierre-fadel.jpg",
           imageAlt: "Portrait of Jean-Pierre B. Fadel",
           statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
         },
