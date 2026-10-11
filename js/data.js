@@ -37,7 +37,7 @@ window.CAMPAIGN_DATA = {
           designation: "",
           image: "assets/candidates/roy-ayyache.jpg",
           imageAlt: "Portrait of Roy E. Ayyache",
-          statement: "The candidate’s profile statement will be added here once the final campaign information is provided."
+          statement: "I am Roy Ayyache, a third year Industrial Engineering student running for USFC. Our students deserve more than promises, and I am ready to deliver. I am running to make sure every student's voice is not only heard, but acted upon. Beyond the vote, it's about results."
         },
         {
           id: "msfea-antoine-safar",
