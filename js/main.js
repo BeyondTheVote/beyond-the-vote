@@ -47,6 +47,14 @@
     });
   }
 
+  function facultyDestination(faculty) {
+    if (faculty.candidates.length === 1) {
+      return `candidate.html?id=${encodeURIComponent(faculty.candidates[0].id)}`;
+    }
+
+    return `candidates.html?faculty=${encodeURIComponent(faculty.id)}`;
+  }
+
   function renderFaculties() {
     const grid = document.querySelector("#faculty-grid");
     const count = document.querySelector("#faculty-count");
@@ -56,7 +64,7 @@
     grid.innerHTML = data.faculties
       .map(
         (faculty, index) => `
-          <a class="faculty-card" href="candidates.html?faculty=${encodeURIComponent(faculty.id)}">
+          <a class="faculty-card" href="${facultyDestination(faculty)}">
             <div class="faculty-card-topline">
               <span>${String(index + 1).padStart(2, "0")}</span>
               <span class="faculty-arrow" aria-hidden="true">↗</span>
@@ -66,7 +74,7 @@
               <h3>${escapeHtml(faculty.shortName)}</h3>
               <p>${escapeHtml(faculty.fullName)}</p>
             </div>
-            <span class="faculty-card-action">View candidates <span aria-hidden="true">→</span></span>
+            <span class="faculty-card-action">${faculty.candidates.length === 1 ? "View profile" : "View candidates"} <span aria-hidden="true">→</span></span>
           </a>`
       )
       .join("");
@@ -162,8 +170,9 @@
     }
 
     const { candidate, faculty } = match;
-    backLink.href = `candidates.html?faculty=${encodeURIComponent(faculty.id)}`;
-    backLink.innerHTML = `<span aria-hidden="true">←</span> ${escapeHtml(faculty.shortName)} candidates`;
+    const hasSingleCandidate = faculty.candidates.length === 1;
+    backLink.href = hasSingleCandidate ? "faculties.html" : facultyDestination(faculty);
+    backLink.innerHTML = `<span aria-hidden="true">←</span> ${hasSingleCandidate ? "All faculties" : `${escapeHtml(faculty.shortName)} candidates`}`;
     const pageTitle = `${candidate.name} | ${faculty.shortName} | Beyond the Vote`;
     const pageDescription = `${candidate.name}, ${candidate.position}, ${faculty.fullName}.`;
     document.title = pageTitle;
@@ -181,7 +190,7 @@
         <div class="profile-details">
           <nav class="breadcrumbs" aria-label="Breadcrumb">
             <a href="faculties.html">Faculties</a><span aria-hidden="true">/</span>
-            <a href="candidates.html?faculty=${encodeURIComponent(faculty.id)}">${escapeHtml(faculty.shortName)}</a><span aria-hidden="true">/</span>
+            <a href="${hasSingleCandidate ? "faculties.html" : facultyDestination(faculty)}">${escapeHtml(faculty.shortName)}</a><span aria-hidden="true">/</span>
             <span aria-current="page">Profile</span>
           </nav>
           <div class="profile-kicker">
